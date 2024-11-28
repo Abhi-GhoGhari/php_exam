@@ -1,7 +1,7 @@
 
 <?php
 
-class Config
+class Connection
 {
     private $HOST = 'localhost';
     private $USERNAME = 'root';

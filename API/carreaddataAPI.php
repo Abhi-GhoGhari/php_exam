@@ -1,10 +1,10 @@
 
 <?php
-include ("../config.php");
+include ("../connection.php");
 header('Content-Type: application/json');
 
-$congin = new Config();
-$conn_res = $congin->connect();
+$connection = new Connection();
+$conn_res = $connection->connect();
 
 
 $id = $_POST['id'];
